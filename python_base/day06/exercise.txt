@@ -1,0 +1,37 @@
+day06 作业：
+1. 参照下列代码，定义判断是否是奇数的方法．
+    number = int(input("请输入整数:"))
+    if number % 2 == 1:
+        print("奇数")
+    else:
+        print("偶数")
+
+2.参照下列代码，定义根据月份返回天数的方法．
+  要求：考虑２月，如果是闰年返回２９天，否则返回２８天．
+    month = int(input("请输入月份:"))
+    if month < 1 or month > 12:
+        print("输入有误")
+    elif month == 2:
+        print("28天")
+    elif month == 4 or month == 6 or month == 9 or month == 11:
+        print("30天")
+    else:
+        print("31天")
+
+3.参照下列代码，定义获取最小值方法．
+    min = list01[0]
+    for i in range(1, len(list01)):
+        # 发现更大的，则替换假设的．
+        if min > list01[i]:
+            min = list01[i]
+    print(min)
+
+4. 定义函数，判断字符串中存在的中文字符数量．
+    中文编码范围：0x4E00   ord(字符)    0x9FA5
+
+5. 扩展练习(定义函数，返回指定范围内的素数)
+例如：１－－１００　　
+
+
+
+
