@@ -1,4 +1,4 @@
-#python基础学习
+python基础学习
 1.project_month1 为练习项目
 2.python_base为每天学习代码
 3.python_base.docx为Python基础学习文档
